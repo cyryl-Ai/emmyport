@@ -81,7 +81,7 @@ body {
     align-items:center;
     justify-content: space-between;
     padding:20px 80px;
-    background:#202C39;
+    background:#ffbe0b;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
     z-index: 999;
     position:sticky;
@@ -110,7 +110,7 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active {
-    color:#ffbe0b;
+    color:#283618;
 }
 
 #navbar li a.active::after,
@@ -939,6 +939,7 @@ subtotal table{
         position: fixed;
         top:  0;
         right: -300px;
+        height: 100vh;
         width: 300px;
         background-color:#E3E6F3;
         box-shadow: 0 40px 60px rgba(0,0,0,0.1);
@@ -946,7 +947,7 @@ subtotal table{
         transition:0.3s;
     }
 
-    #navbar .active {
+    #navbar.active {
         right: 0px;
     }
 
@@ -959,7 +960,7 @@ subtotal table{
         align-items: center;
     }
     #mobile i{
-        color: #1a1a1a;
+        color: #283618;
         font-size: 24px;
         padding-left: 20px;
     }
@@ -968,13 +969,14 @@ subtotal table{
         position: absolute;
         top: 30px;
         left: 30px;
-        color: #222;
+        color: #283618;
         font-size:24px;
     }
     #lg-bag {
         display: none;
     }
     #hero{
+        width: 100%;
         height: 70vh;
         background-position: top 30% right 30%;
         padding: 0 80px;
@@ -1001,9 +1003,10 @@ subtotal table{
         padding: 30px;
     }
     #banner3 {
-        padding:0 40px;
+        padding:0 20px;
+        width: 100%;
     }
-    #banner .banner-box {
+    #banner.banner-box {
        width:28%; 
     }
     #newsletter .form {
